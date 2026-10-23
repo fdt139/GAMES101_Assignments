@@ -144,13 +144,13 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\TA\GAMES系列\GAMES101\Assignment1\代码框架\main.cpp" />
-    <ClCompile Include="..\..\..\TA\GAMES系列\GAMES101\Assignment1\代码框架\rasterizer.cpp" />
-    <ClCompile Include="..\..\..\TA\GAMES系列\GAMES101\Assignment1\代码框架\Triangle.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="rasterizer.cpp" />
+    <ClCompile Include="Triangle.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\TA\GAMES系列\GAMES101\Assignment1\代码框架\rasterizer.hpp" />
-    <ClInclude Include="..\..\..\TA\GAMES系列\GAMES101\Assignment1\代码框架\Triangle.hpp" />
+    <ClInclude Include="rasterizer.hpp" />
+    <ClInclude Include="Triangle.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
