@@ -9,6 +9,7 @@
 ## Assignment 3: Shading
 ### normal shader
 <img width="700" height="700" alt="normal" src="https://github.com/user-attachments/assets/c57c0921-5617-45bb-8d5a-29c65fda874e" />
+
 ### phong shader
 <img width="700" height="700" alt="Bling-Phong" src="https://github.com/user-attachments/assets/e8de65e4-4333-439e-99cc-8d3918998c5b" />
 ### texture shader
