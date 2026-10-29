@@ -22,6 +22,8 @@
 ### displacement shader
 <img width="700" height="700" alt="displacement" src="https://github.com/user-attachments/assets/0fc6efb8-0d2e-441a-ad7f-ba894fde0022" />
 
+## Assignment 4: 贝塞尔曲线
+<img width="805" height="805" alt="屏幕截图 2026-10-29 195710" src="https://github.com/user-attachments/assets/685c9108-7cbe-4e8e-974c-a592ca4a798d" />
 
 
 
