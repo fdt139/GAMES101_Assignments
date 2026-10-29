@@ -259,7 +259,7 @@ static Eigen::Vector2f interpolate(float alpha, float beta, float gamma, const E
 //Screen space rasterization
 void rst::rasterizer::rasterize_triangle(const Triangle& t, const std::array<Eigen::Vector3f, 3>& view_pos)
 {
-	auto v = t.toVector4();
+	auto v = t.v;
 
 	float x_max1 = std::max({ v[0].x(), v[1].x(), v[2].x() });
 	float x_min1 = std::min({ v[0].x(), v[1].x(), v[2].x() });
@@ -279,28 +279,9 @@ void rst::rasterizer::rasterize_triangle(const Triangle& t, const std::array<Eig
 	for (int x = x_min; x <= x_max; x++) {
 		for (int y = y_min; y <= y_max; y++) {
 			if (insideTriangle(x + 0.5f, y + 0.5f, t.v)) {
-				Vector4f v0 = {
-					view_pos[0].x(),
-					view_pos[0].y(),
-					view_pos[0].z(),
-					v[0].w()
-				};
-				Vector4f v1 = {
-					view_pos[1].x(),
-					view_pos[1].y(),
-					view_pos[1].z(),
-					v[1].w()
-				};
-				Vector4f v2 = {
-					view_pos[2].x(),
-					view_pos[2].y(),
-					view_pos[2].z(),
-					v[2].w()
-				};
-				Vector4f vp[3] = { v0, v1, v2 };
-				auto [alpha, beta, gamma] = computeBarycentric2D(x, y, vp);
+				auto [alpha, beta, gamma] = computeBarycentric2D(x, y, t.v);
 				float Z = 1.0f / (alpha / v[0].w() + beta / v[1].w() + gamma / v[2].w());
-				float zp = alpha * v[0].z() / v[0].w() + beta * view_pos[1].z() / v[1].w() + gamma * view_pos[2].z() / v[2].w();
+				float zp = alpha * v[0].z() / v[0].w() + beta * v[1].z() / v[1].w() + gamma * v[2].z() / v[2].w();
 				zp *= Z;
 
 				// TODO: Interpolate the attributes:
@@ -322,7 +303,7 @@ void rst::rasterizer::rasterize_triangle(const Triangle& t, const std::array<Eig
 			}
 		}
 	}
-}
+} 
 	void rst::rasterizer::set_model(const Eigen::Matrix4f & m)
 	{
 		model = m;

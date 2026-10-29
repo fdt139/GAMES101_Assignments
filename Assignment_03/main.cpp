@@ -7,6 +7,7 @@
 #include "Shader.hpp"
 #include "Texture.hpp"
 #include "OBJ_Loader.h"
+#include <algorithm>
 
 Eigen::Matrix4f get_view_matrix(Eigen::Vector3f eye_pos)
 {
@@ -100,7 +101,12 @@ Eigen::Vector3f texture_fragment_shader(const fragment_shader_payload& payload)
     if (payload.texture)
     {
         // TODO: Get the texture value at the texture coordinates of the current fragment
-		return_color = payload.texture->getColor(payload.tex_coords.x(), payload.tex_coords.y());
+		float u = payload.tex_coords.x() ;
+		float v = payload.tex_coords.y() ;
+		u = std::min(std::max(u, 0.0f), 0.9999f);
+		v = std::min(std::max(v, 0.0f), 0.9999f);
+
+        return_color = payload.texture->getColor(u,v);
     }
     Eigen::Vector3f texture_color;
     texture_color << return_color.x(), return_color.y(), return_color.z();
@@ -164,8 +170,9 @@ Eigen::Vector3f phong_fragment_shader(const fragment_shader_payload& payload)
         // TODO: For each light source in the code, calculate what the *ambient*, *diffuse*, and *specular* 
         // components are. Then, accumulate that result on the *result_color* object.
         Eigen::Vector3f Ld = kd.cwiseProduct(light.intensity / (point - light.position).squaredNorm() * std::max(0.0f, normal.normalized().dot((light.position - point).normalized())));
-
-        Eigen::Vector3f h = ((light.position - point) + (eye_pos - point)).normalized();
+        Eigen::Vector3f l = (light.position - point).normalized();
+        Eigen::Vector3f r = (eye_pos - point).normalized();
+        Eigen::Vector3f h = (l + r).normalized();
         Eigen::Vector3f Ls = ks.cwiseProduct(light.intensity / (point - light.position).squaredNorm() * std::pow(std::max(0.0f, normal.normalized().dot(h)), p));
         Eigen::Vector3f La = ka.cwiseProduct(amb_light_intensity);
         result_color += La + Ld + Ls;
@@ -211,6 +218,8 @@ Eigen::Vector3f displacement_fragment_shader(const fragment_shader_payload& payl
 
 	float u = payload.tex_coords.x();
 	float v = payload.tex_coords.y();
+    u = std::min(std::max(u, 0.0f), 0.9999f);
+    v = std::min(std::max(v, 0.0f), 0.9999f);
 	float w = payload.texture->width;
     float h = payload.texture->height;
 
