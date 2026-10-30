@@ -25,6 +25,8 @@
 ## Assignment 4: 贝塞尔曲线
 <img width="805" height="805" alt="屏幕截图 2026-10-29 195710" src="https://github.com/user-attachments/assets/685c9108-7cbe-4e8e-974c-a592ca4a798d" />
 
+## Assignment 5: Whitted Style Rendering
+<img width="1280" height="960" alt="Whitted style rendering" src="https://github.com/user-attachments/assets/0e65f816-0325-4881-9fba-6de3bc6f2e78" />
 
 
 
