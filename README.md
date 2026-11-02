@@ -28,6 +28,8 @@
 ## Assignment 5: Whitted Style Rendering
 <img width="1280" height="960" alt="Whitted style rendering" src="https://github.com/user-attachments/assets/0e65f816-0325-4881-9fba-6de3bc6f2e78" />
 
+## Assignment 6: BVH加速求交算法
+<img width="1280" height="960" alt="BVH加速求交算法" src="https://github.com/user-attachments/assets/03aedb1c-4f25-4ff6-84e0-f631ac2a663b" />
 
 
 
