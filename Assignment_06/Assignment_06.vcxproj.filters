@@ -14,4 +14,68 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AreaLight.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Bounds3.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BVH.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="global.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OBJ_Loader.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ray.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Sphere.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BVH.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
