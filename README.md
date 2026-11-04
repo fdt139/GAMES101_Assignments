@@ -31,5 +31,7 @@
 ## Assignment 6: BVH加速求交算法
 <img width="1280" height="960" alt="BVH加速求交算法" src="https://github.com/user-attachments/assets/03aedb1c-4f25-4ff6-84e0-f631ac2a663b" />
 
+## Assignment 6: 路径追踪
+<img width="784" height="784" alt="path tracing" src="https://github.com/user-attachments/assets/c9b4a877-03fa-4902-9482-340cc51306a6" />
 
 
