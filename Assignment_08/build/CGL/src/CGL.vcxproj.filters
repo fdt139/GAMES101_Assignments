@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\cpp Projects\GAMES101_Assignments\Assignment_08\CGL\src\vector2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\cpp Projects\GAMES101_Assignments\Assignment_08\CGL\src\vector3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\cpp Projects\GAMES101_Assignments\Assignment_08\CGL\src\vector4D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\cpp Projects\GAMES101_Assignments\Assignment_08\CGL\src\matrix3x3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\cpp Projects\GAMES101_Assignments\Assignment_08\CGL\src\matrix4x4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\cpp Projects\GAMES101_Assignments\Assignment_08\CGL\src\quaternion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\cpp Projects\GAMES101_Assignments\Assignment_08\CGL\src\complex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\cpp Projects\GAMES101_Assignments\Assignment_08\CGL\src\color.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\cpp Projects\GAMES101_Assignments\Assignment_08\CGL\src\osdtext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\cpp Projects\GAMES101_Assignments\Assignment_08\CGL\src\osdfont.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\cpp Projects\GAMES101_Assignments\Assignment_08\CGL\src\viewer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\cpp Projects\GAMES101_Assignments\Assignment_08\CGL\src\base64.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\cpp Projects\GAMES101_Assignments\Assignment_08\CGL\src\tinyxml2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\cpp Projects\GAMES101_Assignments\Assignment_08\CGL\src\CGL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\cpp Projects\GAMES101_Assignments\Assignment_08\CGL\src\vector2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\cpp Projects\GAMES101_Assignments\Assignment_08\CGL\src\vector3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\cpp Projects\GAMES101_Assignments\Assignment_08\CGL\src\vector4D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\cpp Projects\GAMES101_Assignments\Assignment_08\CGL\src\matrix3x3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\cpp Projects\GAMES101_Assignments\Assignment_08\CGL\src\matrix4x4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\cpp Projects\GAMES101_Assignments\Assignment_08\CGL\src\quaternion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\cpp Projects\GAMES101_Assignments\Assignment_08\CGL\src\complex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\cpp Projects\GAMES101_Assignments\Assignment_08\CGL\src\color.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\cpp Projects\GAMES101_Assignments\Assignment_08\CGL\src\osdtext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\cpp Projects\GAMES101_Assignments\Assignment_08\CGL\src\viewer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\cpp Projects\GAMES101_Assignments\Assignment_08\CGL\src\base64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\cpp Projects\GAMES101_Assignments\Assignment_08\CGL\src\tinyxml2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\cpp Projects\GAMES101_Assignments\Assignment_08\CGL\src\renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\cpp Projects\GAMES101_Assignments\Assignment_08\CGL\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{89C69323-6CF9-3164-A7D4-01B104331CC5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9A465B0B-8358-3725-88C6-7694D35F5D10}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

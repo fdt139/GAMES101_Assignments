@@ -1,0 +1,13 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/cpp Projects/GAMES101_Assignments/Assignment_08/out/build/x64-Debug/cmake_install.cmake",
+		"C:/cpp Projects/GAMES101_Assignments/Assignment_08/out/build/x64-Debug/CGL/cmake_install.cmake",
+		"C:/cpp Projects/GAMES101_Assignments/Assignment_08/out/build/x64-Debug/CGL/deps/glew/cmake_install.cmake",
+		"C:/cpp Projects/GAMES101_Assignments/Assignment_08/out/build/x64-Debug/CGL/deps/glfw/cmake_install.cmake",
+		"C:/cpp Projects/GAMES101_Assignments/Assignment_08/out/build/x64-Debug/CGL/deps/glfw/src/cmake_install.cmake",
+		"C:/cpp Projects/GAMES101_Assignments/Assignment_08/out/build/x64-Debug/CGL/src/cmake_install.cmake",
+		"C:/cpp Projects/GAMES101_Assignments/Assignment_08/out/build/x64-Debug/src/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
