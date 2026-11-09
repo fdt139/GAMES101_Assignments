@@ -1,4 +1,3 @@
-<img width="720" height="501" alt="rope_sim" src="https://github.com/user-attachments/assets/f35de3c6-b02f-4c06-b139-e63e5b3ca2ec" />
 # GAMES101_Assignments
 
 ## Assignment 1: 绘制三角形及旋转
@@ -35,6 +34,7 @@
 ## Assignment 7: 路径追踪
 <img width="784" height="784" alt="path tracing" src="https://github.com/user-attachments/assets/c9b4a877-03fa-4902-9482-340cc51306a6" />
 
+## Assignment 8: Euler和Verlet法求解绳子模拟
 <img width="720" height="501" alt="rope_sim" src="https://github.com/user-attachments/assets/75714989-0790-441b-9916-355ca92dc964" />
 
 
