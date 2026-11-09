@@ -1,3 +1,4 @@
+<img width="720" height="501" alt="rope_sim" src="https://github.com/user-attachments/assets/f35de3c6-b02f-4c06-b139-e63e5b3ca2ec" />
 # GAMES101_Assignments
 
 ## Assignment 1: 绘制三角形及旋转
@@ -31,7 +32,10 @@
 ## Assignment 6: BVH加速求交算法
 <img width="1280" height="960" alt="BVH加速求交算法" src="https://github.com/user-attachments/assets/03aedb1c-4f25-4ff6-84e0-f631ac2a663b" />
 
-## Assignment 6: 路径追踪
+## Assignment 7: 路径追踪
 <img width="784" height="784" alt="path tracing" src="https://github.com/user-attachments/assets/c9b4a877-03fa-4902-9482-340cc51306a6" />
+
+<img width="720" height="501" alt="rope_sim" src="https://github.com/user-attachments/assets/75714989-0790-441b-9916-355ca92dc964" />
+
 
 
